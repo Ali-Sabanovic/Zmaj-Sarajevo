@@ -1,0 +1,1278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zmaj Stanica</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,700;1,800;1,900&family=Source+Sans+3:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="loader" class="loader">
+        <img src="img/logo2.png" alt="" class="loaderImg">
+    </div>
+    <section class="header">
+             <div class="nav">
+                <div class="social">
+                    <div class="social-line">
+
+                    </div>
+
+                    <a target="_blank" href="https://www.facebook.com/ZmajStanica/?locale=hr_HR">
+                            FACEBOOK
+                    </a>
+
+                    <a target="_blank" href="https://www.instagram.com/cevabdzinica_zmaj/?hl=en">
+                            INSTAGRAM
+                    </a>
+
+                </div>
+
+                <a class="hamb-iconJS" href="#none">
+                    <img  src="img/navIcon.png" alt="">
+                </a>
+                <img src="img/logo.png" alt="">
+                <img class="logoAnime" src="img/logo2.png" alt="">
+
+                <div class="languages" >
+                    <label for="language" style="color: #fff; margin-right: 15px;">Select a Language:</label>
+                    <select id="language">
+                        <option value="bosnian">Bosnian</option>
+                        <option value="english">English</option>
+                    </select>
+                </div>
+             </div>
+
+<div class="nav-menu">
+    <img src="img/menu/Union (7).png" alt="" class="navBG">
+    <div class="nav-menu-container">
+        <div>
+            <span>01</span>
+            <a id="pocetnaLink" href="index.html">POČETNA</a>
+        </div>
+        <div>
+            <span>02</span>
+            <a id="oNamaLink" href="about.html">O NAMA</a>
+        </div>
+        <div>
+            <span>03</span>
+            <a id="galerijaLink" href="galerija.html">GALERIJA</a>
+        </div>
+        <div>
+            <span>04</span>
+            <a id="kontaktLink" href="kontakt.html">KONTAKT</a>
+        </div>
+
+        <div class="nav-menu-images">
+            <img id="pocetnaImg" src="img/menu/pocetna-min.jpg" alt="">
+            <img id="onamaImg" src="img/menu/onama-min.jpg" alt="">
+            <img id="galerijaImg" src="img/menu/galerija-min.jpg" alt="">
+            <img id="kontaktImg" src="img/menu/kontakt-min.jpg" alt="">
+            <img id="regularImg" src="img/menu/regular-min.png" alt="">
+        </div>
+    </div>
+</div>
+
+             <div class="header-heading">
+                <h1>
+                    ĆEVABDŽINICA ZMAJ
+                </h1>
+                
+                <h1 class="header-heading-h1Img">
+                    STANICA SARAJEVO
+                    <img src="img/titleBG.png" alt="">
+                </h1>
+
+                <p>
+                    Dobrodošli na najbolje mjesto u gradu Ćevabdžinica „ZMAJ“. Najukusniji ćevapi u cijelom gradu, veliki <br> broj stari ali i novih gostiju govori o kvaliteti hrane i usluge u ovom prepoznatljivom sarajevskom mjestu.
+                </p>
+             </div>
+
+             
+             <div class="header-bottom">
+                <a  onclick="scrollCjenovnik()" href="#none">
+                    NAS MENI
+                    <img src="img/arrowDown.png" alt="">
+                </a>
+             </div>
+    </section>
+    
+    <section id="cjenovnik" class="cjenovnik">
+        <div class="cjenovnik-heading">
+            <h1>CJENOVNIK</h1>
+            <div class="cjenovnik-menu">
+                <a href="#none">
+                    NOVO U PONUDI 
+                    <img class="cjenovnik-linkBG" src="img/cjenovnikBG.png" alt="">
+                    
+                </a>
+                
+                <a href="#none">
+                    MALE PORCIJE    
+                    <img class="cjenovnik-linkBG" src="img/cjenovnikBG.png" alt="">
+                    
+                </a>
+                
+                <a href="#none">
+                    VELIKE PORCIJE
+                    <img class="cjenovnik-linkBG" src="img/cjenovnikBG.png" alt="">
+                    
+                </a>
+                
+                <a href="#none">
+                    SALATE, PECIVA I SL
+                    <img class="cjenovnik-linkBG" src="img/cjenovnikBG.png" alt="">
+                    
+                </a>
+
+                <a href="#none">
+                    KOMBINACIJE I PLATE
+                    <img class="cjenovnik-linkBG" src="img/cjenovnikBG.png" alt="">
+                    
+                </a>
+                
+                <a href="#none">
+                    PIĆA
+                    <img class="cjenovnik-linkBG" src="img/cjenovnikBG.png" alt="">
+                    
+                </a>
+
+                <a href="#none" id="link" >
+                    DESERTI
+                    <img class="cjenovnik-linkBG" src="img/cjenovnikBG.png" alt="">
+                </a>
+            </div>
+
+            <div class="cjenovnik-content">
+                <!-- DESERTI -->
+<div class="cjenovnik-deserti">
+    <h2>DEZERTI</h2>
+    <div class="kafaCaj">
+        <div class="kafaCaj-img">
+            <img src="img/cjenovnik/kafaCaj-min.png" alt="">
+        </div>
+
+        <div class="kafaCaj-ponuda">
+            <div>
+                <h3>TUFAHIJA</h3>
+                <div class="line"></div>
+                <div>3.50 KM</div>
+            </div>
+            <div>
+                <h3>HURMAŠICA</h3>
+                <div class="line"></div>
+                <div>2.50 KM</div>
+            </div>
+            <div>
+                <h3>TULUMBA</h3>
+                <div class="line"></div>
+                <div>2.50 KM</div>
+            </div>
+            <div>
+                <h3>BAKLAVA</h3>
+                <div class="line"></div>
+                <div>2.50 KM</div>
+            </div>
+            <div>
+                <h3>RUŽICA</h3>
+                <div class="line"></div>
+                <div>2.50 KM</div>
+            </div>
+            <div>
+                <h3>JABUKOVAČA</h3>
+                <div class="line"></div>
+                <div>2.50 KM</div>
+            </div>
+            <div>
+                <h3>KADAIF</h3>
+                <div class="line"></div>
+                <div>2.50 KM</div>
+            </div>
+            <div>
+                <h3>SLADOLED KUGLA 60GR</h3>
+                <div class="line"></div>
+                <div>2.00 KM</div>
+            </div><div>
+                <h3>SLADOLED PISTACIJA 60GR</h3>
+                <div class="line"></div>
+                <div>2.50 KM</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- PICE -->
+<div class="cjenovnik-pice">
+    <h2>PIĆE</h2>
+    <div class="pice">
+        <div>
+            <h3>COCACOLA</h3>
+            <div class="line"></div>
+            <div>3.00 KM</div>
+        </div>
+
+        <div>
+            <h3>SOK OD JABUKE</h3>
+            <div class="line"></div>
+            <div>3.00 KM</div>
+        </div>
+
+        <div>
+            <h3>COCACOLA ZERO</h3>
+            <div class="line"></div>
+            <div>3.00 KM</div>
+        </div>
+
+        <div>
+            <h3>SOK OD JAGODE</h3>
+            <div class="line"></div>
+            <div>3.00 KM</div>
+        </div>
+
+        <div>
+            <h3>FANTA</h3>
+            <div class="line"></div>
+            <div>3.00 KM</div>
+        </div>
+
+        <div>
+            <h3>SOK OD RIBIZLE</h3>
+            <div class="line"></div>
+            <div>3.00 KM</div>
+        </div>
+
+        <div>
+            <h3>SPRITE</h3>
+            <div class="line"></div>
+            <div>3.00 KM</div>
+        </div>
+
+        <div>
+            <h3>SOK OD NARANDŽE</h3>
+            <div class="line"></div>
+            <div>3.00 KM</div>
+        </div>
+
+        <div>
+            <h3>ORANGINA</h3>
+            <div class="line"></div>
+            <div>3.00 KM</div>
+        </div>
+
+        <div>
+            <h3>SCHWEPPES BITTER LEMON</h3>
+            <div class="line"></div>
+            <div>3.00 KM</div>
+        </div>
+
+        <div>
+            <h3>COCKTA</h3>
+            <div class="line"></div>
+            <div>3.00 KM</div>
+        </div>
+
+        <div>
+            <h3>SCHWEPPES TONIC</h3>
+            <div class="line"></div>
+            <div>3.00 KM</div>
+        </div>
+
+        <div>
+            <h3>NEGAZIRANA VODA</h3>
+            <div class="line"></div>
+            <div>2.00 KM</div>
+        </div>
+
+        <div>
+            <h3>SCHWEPPES TANGARINA</h3>
+            <div class="line"></div>
+            <div>3.00 KM</div>
+        </div>
+
+        <div>
+            <h3>MINERALNA VODA</h3>
+            <div class="line"></div>
+            <div>2.50 KM</div>
+        </div>
+
+        <div>
+            <h3>SCHWEPPES POMEGRANATE</h3>
+            <div class="line"></div>
+            <div>3.00 KM</div>
+        </div>
+
+        <div>
+            <h3>KISELJAK SENSATION</h3>
+            <div class="line"></div>
+            <div>3.00 KM</div>
+        </div>
+
+        <div>
+            <h3>BEZALKOHOLNO PIVO</h3>
+            <div class="line"></div>
+            <div>3.00 KM</div>
+        </div>
+
+        <div>
+            <h3>LEDENI CAJ</h3>
+            <div class="line"></div>
+            <div>3.00 KM</div>
+        </div>
+    </div>
+
+    <h2>KAFA I CAJ</h2>
+    <div class="kafaCaj kafaCaj2">
+        <div class="kafaCaj-img">
+            <img src="img/cjenovnik/kafaCaj-min.png" alt="">
+        </div>
+
+        <div class="kafaCaj-ponuda">
+            <div>
+                <h3>ZELENI ČAJ</h3>
+                <div class="line"></div>
+                <div>2.50 KM</div>
+            </div>
+            <div>
+                <h3>CRNI ČAJ</h3>
+                <div class="line"></div>
+                <div>2.50 KM</div>
+            </div>
+            <div>
+                <h3>ŠUMSKO VOĆE</h3>
+                <div class="line"></div>
+                <div>2.50 KM</div>
+            </div>
+            <div>
+                <h3>MENTA</h3>
+                <div class="line"></div>
+                <div>2.50 KM</div>
+            </div>
+            <div>
+                <h3>KAMILICA</h3>
+                <div class="line"></div>
+                <div>2.50 KM</div>
+            </div>
+            <div>
+                <h3>KAFA</h3>
+                <div class="line"></div>
+                <div>2.50 KM</div>
+            </div>
+            <div>
+                <h3>KAFA SA MLIJEKOM</h3>
+                <div class="line"></div>
+                <div>3.00 KM</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- KOMBINACIJE PLATE -->
+<div class="cjenovnik-kombinacije">
+    <h2>KOMBINACIJE</h2>
+    <div class="kombinacije komb">
+        <div class="kombinacije-img">
+            <img src="img/cjenovnik/komb1-min.png" alt="">
+            <img src="img/cjenovnik/komb2-min.png" alt="">
+        </div>
+
+        <div class="kombinacije-ponuda">
+            <div>
+                <h3>Suđukice, Ćevapi / Sausages, Ćevapi</h3>
+                <div class="line"></div>
+                <div>11.50 KM</div>
+            </div>
+
+            <div>
+                <h3>Piletina, Ćevapi / Chicken, Ćevapi</h3>
+                <div class="line"></div>
+                <div>11.50 KM</div>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="plate-naslov">PLATA</h2>
+    <div class="kombinacije plat">
+        <div class="kombinacije-img">
+            <img src="img/cjenovnik/plate-min.jpg" alt="">
+        </div>
+
+        <div class="kombinacije-ponuda">
+            <div>
+                <h3>MJEŠANO MESO PLATA 1#</h3>
+                <div class="line"></div>
+                <div>20.00 KM</div>
+            </div>
+
+            <div>
+                <h3>MJEŠANO MESO PLATA 2#</h3>
+                <div class="line"></div>
+                <div>30.00 KM</div>
+            </div>
+
+            <div>
+                <h3>MJEŠANO MESO PLATA 3#</h3>
+                <div class="line"></div>
+                <div>40.00 KM</div>
+            </div>
+
+            <div>
+                <h3>MJEŠANO MESO PLATA 4#</h3>
+                <div class="line"></div>
+                <div>50.00 KM</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SALATE PECIVA -->
+<div class="cjenovnik-salate">
+    <div class="salate">
+        <h2>SALATE</h2>
+        <div class="salate-ponuda">
+            <div class="salate-img">
+                <img src="img/cjenovnik/SALATE-min.jpg" alt="">
+            </div>
+
+            <div class="salate-salate">
+                <div>
+                    <h3>ZMAJ SALATA</h3>
+                    <div class="line"></div>
+                    <div>5.00 KM</div>
+                </div>
+
+                <div>
+                    <h3>KUPUS SALATA</h3>
+                    <div class="line"></div>
+                    <div>3.00 KM</div>
+                </div>
+                
+                <div>
+                    <h3>PARADAJZ SALATA</h3>
+                    <div class="line"></div>
+                    <div>3.50 KM</div>
+                </div>
+
+                <div>
+                    <h3>MJEŠANA SALATA</h3>
+                    <div class="line"></div>
+                    <div>4.00 KM</div>
+                </div>
+
+                <div>
+                    <h3>ZMAJ PILEćA SALATA</h3>
+                    <div class="line"></div>
+                    <div>6.50 KM</div>
+                </div>
+
+                <div>
+                    <h3>ZMAJ RAMSTEK SALATA</h3>
+                    <div class="line"></div>
+                    <div>7.00 KM</div>
+                </div>
+
+                <div>
+                    <h3>ŠOPSKA SALATA</h3>
+                    <div class="line"></div>
+                    <div>4.50 KM</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pecivo">
+        <h2>PECIVO I MLIJECNI PROIZVODI</h2>
+        <div class="pecivo-ponuda">
+            <div class="product">
+                <img src="img/cjenovnik/somun-min.png" alt="">
+                <div class="product-opis">
+                    <h3>SOMUN CIJELI</h2>
+                    <div class="line">
+
+                    </div>
+
+                    <div>   
+                        1,00 KM
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/cjenovnik/polaSomuna-min.png" alt="">
+                <div class="product-opis">
+                        <h3 class="saccs">POLA SOMUNA</h2>
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            0,50 KM
+                        </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/cjenovnik/labla-min.png" alt="">
+                <div class="product-opis">
+                        <h3>LABLA</h2>
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            1,00 KM
+                        </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/cjenovnik/kajmak-min.png" alt="">
+                <div class="product-opis">
+                        <h3>KAJMAK</h2>
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            2,00 KM
+                        </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/cjenovnik/jogurt-min.png" alt="">
+                <div class="product-opis">
+                        <h3>JOGURT</h2>
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            1,50 KM
+                        </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/cjenovnik/ajran-min.png" alt="">
+                <div class="product-opis">
+                        <h3>AJRAN</h2>
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            2,00 KM
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- NOVO U PONUDI -->
+        <div class="cjenovnik-novo">
+            <div class="product">
+                <img src="img/cjenovnik/pileciSendvic-min.jpg" alt="">
+                <div class="product-opis">
+                    <h2 class="sssa">PILEĆI SENDVIČ</h2>
+                    <div class="opis">
+                        <div>
+                            350 gr (kupus)
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            6.00 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/cjenovnik/pomfrit-min.jpg" alt="">
+                <div class="product-opis">
+                    <h2 class="sssa1">POMFRIT</h2>
+                    <div class="opis">
+                        <div>
+                            200 gr
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            3,00 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- MALE -->
+        <div class="cjenovnik-products-male">
+            <div class="product product-m1">
+                <img src="img/cjenovnik/cevapi-min.png" alt="">
+                <div class="product-opis">
+                    <h2>ĆEVAPI</h2>
+                    <div class="opis">
+                        <div>
+                            140 gr (luk)
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            5,50 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product product-m2">
+                <img src="img/cjenovnik/pileciSteak-min.png" alt="">
+                <div class="product-opis">
+                    <h2>PILEĆI STEAK</h2>
+                    <div class="opis">
+                        <div>
+                            230 gr (kupus)
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            6,50 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product product-m3">
+                <img src="img/cjenovnik/pljeskavice-min.png" alt="">
+                <div class="product-opis">
+                    <h2>PLJESKAVICE</h2>
+                    <div class="opis">
+                        <div>
+                            135 gr (luk)
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            6,00 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product product-m4">
+                <img src="img/cjenovnik/pileciRaznjici-min.png" alt="">
+                <div class="product-opis">
+                    <h2>PILEĆI RAŽNJIĆI</h2>
+                    <div class="opis">
+                        <div>
+                            150 gr (kupus)
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            6,50 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product product-m5">
+                <img src="img/cjenovnik/sudzukice-min.png" alt="">
+                <div class="product-opis">
+                    <h2>SUDŽUKICE</h2>
+                    <div class="opis">
+                        <div>
+                            135 gr (luk, senf)
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            6,00 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product product-m6">
+                <img src="img/cjenovnik/telecaSnicla-min.png" alt="">
+                <div class="product-opis">
+                    <h2>TELEĆA ŠNICLA</h2>
+                    <div class="opis">
+                        <div>
+                            130 gr (luk)
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            8,00 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product product-m7">
+                <img src="img/cjenovnik/pilecaSnicla-min.png" alt="">
+                <div class="product-opis">
+                    <h2>PILEĆA ŠNICLA</h2>
+                    <div class="opis">
+                        <div>
+                            200 gr (luk)
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            6,50 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product product-m8">
+                <img src="img/cjenovnik/telecaKremelada-min.png" alt="">
+                <div class="product-opis">
+                    <h2>TELEĆA KREMENADLA</h2>
+                    <div class="opis">
+                        <div>
+                            130 gr (luk)
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            8,00 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product product-m9">
+                <img src="img/cjenovnik/pileciFileti-min.png" alt="">
+                <div class="product-opis">
+                    <h2>PILEĆI FILETI</h2>
+                    <div class="opis">
+                        <div>
+                            200 gr (kupus)
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            6,50 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product product-m10">
+                <img src="img/cjenovnik/teleciRaznjici-min.png" alt="">
+                <div class="product-opis">
+                    <h2>TELEĆI RAŽNJIĆI</h2>
+                    <div class="opis">
+                        <div>
+                            130 gr (luk)
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            8,00 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product product-m11">
+                <img src="img/cjenovnik/ramstek-min.png" alt="">
+                <div class="product-opis">
+                    <h2>RAMSTEK</h2>
+                    <div class="opis">
+                        <div>
+                            130 gr (luk)
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            7,50 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product product-m12">
+                <img src="img/cjenovnik/telecaJetra-min.png" alt="">
+                <div class="product-opis">
+                    <h2>TELEĆA JETRA</h2>
+                    <div class="opis">
+                        <div>
+                            160 gr (luk)
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            6,50 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product product-m13">
+                <img src="img/cjenovnik/teleciBubrezi-min.png" alt="">
+                <div class="product-opis">
+                    <h2>TELEĆI BUBREZI</h2>
+                    <div class="opis">
+                        <div>
+                            160 gr (luk)
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            6,50 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product product-m14">
+                <img src="img/cjenovnik/telecaBrizla-min.png" alt="">
+                <div class="product-opis">
+                    <h2>TELEĆA BRIZLA</h2>
+                    <div class="opis">
+                        <div>
+                            160 gr (luk)
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            6,50 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- VELIKE  -->
+        <div class="cjenovnik-products">
+            <div class="product product-v1">
+                <img src="img/cjenovnik/cevapi-min.png" alt="">
+                <div class="product-opis">
+                    <h2>ĆEVAPI</h2>
+                    <div class="opis">
+                        <div>
+                            280 gr (luk)
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            10.50 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product product-v2">
+                <img src="img/cjenovnik/telecaSnicla-min.png" alt="">
+                <div class="product-opis">
+                    <h2>TELEĆA ŠNICLA</h2>
+                    <div class="opis">
+                        <div>
+                            260 gr (luk)
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            15,00 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product product-v3">
+                <img src="img/cjenovnik/pilecaSnicla-min.png" alt="">
+                <div class="product-opis">
+                    <h2>PILEĆA ŠNICLA</h2>
+                    <div class="opis">
+                        <div>
+                            350 gr (luk)
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            11,00 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product product-v4">
+                <img src="img/cjenovnik/telecaKremelada-min.png" alt="">
+                <div class="product-opis">
+                    <h2>TELEĆA KREMENADLA</h2>
+                    <div class="opis">
+                        <div>
+                            260 gr (luk)
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            15,00 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product product-v5">
+                <img src="img/cjenovnik/sudzukice-min.png" alt="">
+                <div class="product-opis">
+                    <h2>SUDŽUKICE</h2>
+                    <div class="opis">
+                        <div>
+                            220 gr (luk, senf)
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            11,00 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product product-v6">
+                <img src="img/cjenovnik/pileciSteak-min.png" alt="">
+                <div class="product-opis">
+                    <h2>PILEĆI STEAK</h2>
+                    <div class="opis">
+                        <div>
+                            300 gr (kupus)
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            12,00 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product product-v7">
+                <img src="img/cjenovnik/pljeskavice-min.png" alt="">
+                <div class="product-opis">
+                    <h2>PLJESKAVICE</h2>
+                    <div class="opis">
+                        <div>
+                            220 gr (luk, kupus)
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            11,00 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product product-v8">
+                <img src="img/cjenovnik/pileciFileti-min.png" alt="">
+                <div class="product-opis">
+                    <h2>PILEĆI RAŽNJIĆI</h2>
+                    <div class="opis">
+                        <div>
+                            300 gr (kupus)
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            12,00 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product product-v9">
+                <img src="img/cjenovnik/pileciFileti-min.png" alt="">
+                <div class="product-opis">
+                    <h2>PILEĆI FILETI</h2>
+                    <div class="opis">
+                        <div>
+                            350 gr (kupus)
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            11,00 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product product-v10">
+                <img src="img/cjenovnik/teleciRaznjici-min.png" alt="">
+                <div class="product-opis">
+                    <h2>TELEĆI RAŽNJIĆI</h2>
+                    <div class="opis">
+                        <div>
+                            260 gr (luk)
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            15,00 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product product-v11">
+                <img src="img/cjenovnik/ramstek-min.png" alt="">
+                <div class="product-opis">
+                    <h2>RAMSTEK</h2>
+                    <div class="opis">
+                        <div>
+                            260 gr (luk)
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            14,50 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product product-v12">
+                <img src="img/cjenovnik/telecaJetra-min.png" alt="">
+                <div class="product-opis">
+                    <h2>TELEĆA JETRA</h2>
+                    <div class="opis">
+                        <div>
+                            320 gr (luk)
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            12,00 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product product-v13">
+                <img src="img/cjenovnik/teleciBubrezi-min.png" alt="">
+                <div class="product-opis">
+                    <h2>TELEĆI BUBREZI</h2>
+                    <div class="opis">
+                        <div>
+                            320 gr (luk)
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            11,00 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product product-v14">
+                <img src="img/cjenovnik/telecaBrizla-min.png" alt="">
+                <div class="product-opis">
+                    <h2>TELEĆA BRIZLA</h2>
+                    <div class="opis">
+                        <div>
+                            320 gr (luk)
+                        </div>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div>   
+                            11,00 KM
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div>
+        </div>
+
+        <img src="img/bg-element.png" class="products-BG" alt="">
+        <img class="cocaCola" src="img/cjenovnik/Group 109.png" alt="">
+
+
+    </section>
+
+    <section class="contact-us">
+            <img class="bg-icon3" src="img/contact/Group 120.png" alt="">
+            <img class="bg-icon4" src="img/contact/Group 2.png" alt="">
+        <div class="contact-container">
+            <img class="bg-icon1" src="img/contact/1.png" alt="">
+            <img class="bg-icon2" src="img/contact/3.png" alt="">
+            <img class="bg-icon5" src="img/contact/2.png" alt="">
+
+            <h1>KONTAKT</h1>
+
+            <div class="contact-img">
+                <img  src="img/contact-img.png" alt="">
+            </div>
+
+            <div class="contact-container-text">
+                <div class="contact-link">
+                    <div class="kontaktiraj">
+                        <a class="kontaktHTML" href="kontakt.html">Kontaktirajte nas, dostava je besplatna!</a>
+                        <a href="kontakt.html"><div><img src="img/arrowRight.png" alt=""></div></a>
+                    </div>
+                </div>
+        
+                <div class="contact-tel">
+                    <p>+387 33 616 969</p>
+                    <p>Novo Sarajevo Put zivota, Sarajevo 71000</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div style="height: 1px; width: 100%; background-color: rgb(96, 96, 96);"></div>
+
+    <section class="footer">
+        <div class="footer-container">
+            <div>
+                <div>
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="footerHTML">
+                    <p>
+                        Ćevabdžinica Zmaj Stanica <br> Sarajevo Dobrodošli u najbolju <br> ćevabdžinicu u gradu Ćevabdžinica <br> „ZMAJ“ Stanica Sarajevo.
+                    </p>
+                </div>
+            </div>
+            <div class="footer-links" style="display: flex; flex-direction: column; opacity: .8;">
+                <a class="footerLink1" href="about.html">
+                    O NAMA
+                </a>
+    
+                <a href="galerija.html">
+                    GALERIJA
+                </a>
+    
+                <a href="kontakt.html">
+                    KONTAKTIRAJTE NAS
+                </a>
+            </div>
+            <div style="opacity: .8;">
+                <p>
+                    +387 33 616 969
+                </p>
+                <p>
+                    Novo Sarajevo Put života, Sarajevo 71000
+                </p>
+                <p>
+                    Pon – Ned: 5:00 – 00:00
+                </p>
+            </div>
+        </div>
+        <div style="height: 1px; width: 100%; background-color: rgb(96, 96, 96);"></div>
+    </section>
+
+    <section class="footer-credits">
+        <p>
+            Sva autorska prava zadržana za © 2023 Ćevabdžinica Zmaj Stanica Sarajevo
+        </p>
+    </section>
+
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+
+    <script src="languages.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
